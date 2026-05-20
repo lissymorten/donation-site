@@ -14,24 +14,24 @@ export default function Home() {
       {/* Grid overlay */}
       <div className="absolute inset-0 opacity-20 bg-[linear-gradient(to_right,#111_1px,transparent_1px),linear-gradient(to_bottom,#111_1px,transparent_1px)] bg-[size:40px_40px]" />
 
-      {/* Main panel */}
-      <div className="relative w-full max-w-md p-6 rounded-2xl border border-cyan-400/30 bg-black/60 backdrop-blur-xl shadow-[0_0_60px_rgba(34,211,238,0.15)]">
+      {/* Content */}
+      <div className="relative w-full max-w-md px-6 py-10 flex flex-col items-center">
 
-        {/* Title */}
+        {/* Title image (bigger now) */}
         <div className="flex justify-center mb-4">
-        <img
-           src="/images/a-o-a_1mb.png"
-           alt="Altar of Appreciation"
-           className="max-w-[220px] w-full h-auto drop-shadow-[0_0_10px_rgba(34,211,238,0.4)]"
+          <img
+            src="/images/a-o-a_1mb.png"
+            alt="Altar of Appreciation"
+            className="max-w-[320px] w-full h-auto drop-shadow-[0_0_20px_rgba(34,211,238,0.5)]"
           />
         </div>
 
-        <p className="text-xs text-gray-400 text-center mt-2 mb-6">
+        <p className="text-xs text-gray-400 text-center mt-2 mb-8">
           Offerings for creative work, projects, and content
         </p>
 
-        {/* Buttons */}
-        <div className="space-y-3">
+        {/* Buttons (no panel container) */}
+        <div className="w-full space-y-3">
 
           <a
             href="https://www.paypal.com/donate/?hosted_button_id=NENNNVVP3MSNY"
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <div className="mt-6 text-center text-sm text-gray-300">
+        <div className="mt-8 text-center text-sm text-gray-300">
           Thank you for your support 🙏
         </div>
 

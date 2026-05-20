@@ -17,33 +17,33 @@ export default function Home() {
       {/* Content */}
       <div className="relative w-full max-w-md px-6 py-10 flex flex-col items-center">
 
-        {/* Title image (bigger now) */}
-        <div className="flex justify-center mb-4">
+        {/* Title image (much bigger now) */}
+        <div className="flex justify-center mb-6">
           <img
             src="/images/a-o-a_1mb.png"
             alt="Altar of Appreciation"
-            className="max-w-[320px] w-full h-auto drop-shadow-[0_0_20px_rgba(34,211,238,0.5)]"
+            className="max-w-[640px] w-full h-auto drop-shadow-[0_0_25px_rgba(34,211,238,0.55)]"
           />
         </div>
 
-        <p className="text-xs text-gray-400 text-center mt-2 mb-8">
+        <p className="text-xs text-gray-400 text-center mt-2 mb-6">
           Offerings for creative work, projects, and content
         </p>
 
-        {/* Buttons (no panel container) */}
-        <div className="w-full space-y-3">
+        {/* Buttons (smaller now) */}
+        <div className="w-full space-y-2">
 
           <a
             href="https://www.paypal.com/donate/?hosted_button_id=NENNNVVP3MSNY"
             target="_blank"
-            className="block text-center py-3 rounded-lg border border-cyan-400/30 bg-cyan-500/10 hover:bg-cyan-500/20 transition"
+            className="block text-center py-2 text-sm rounded-lg border border-cyan-400/30 bg-cyan-500/10 hover:bg-cyan-500/20 transition"
           >
             💠 PayPal Offering
           </a>
 
           <button
             onClick={() => setShowZelle(!showZelle)}
-            className="w-full py-3 rounded-lg border border-blue-400/30 bg-blue-500/10 hover:bg-blue-500/20 transition"
+            className="w-full py-2 text-sm rounded-lg border border-blue-400/30 bg-blue-500/10 hover:bg-blue-500/20 transition"
           >
             {showZelle ? "Zelle: tylerbsimons@gmail.com" : "🔒 Reveal Zelle Sigil"}
           </button>
@@ -51,7 +51,7 @@ export default function Home() {
           <a
             href="https://venmo.com/lissymorten"
             target="_blank"
-            className="block text-center py-3 rounded-lg border border-purple-400/30 bg-purple-500/10 hover:bg-purple-500/20 transition"
+            className="block text-center py-2 text-sm rounded-lg border border-purple-400/30 bg-purple-500/10 hover:bg-purple-500/20 transition"
           >
             ⚡ Venmo Offering
           </a>
@@ -59,7 +59,7 @@ export default function Home() {
           <a
             href="https://cash.app/$lissymorten"
             target="_blank"
-            className="block text-center py-3 rounded-lg border border-yellow-400/30 bg-yellow-500/10 hover:bg-yellow-500/20 transition"
+            className="block text-center py-2 text-sm rounded-lg border border-yellow-400/30 bg-yellow-500/10 hover:bg-yellow-500/20 transition"
           >
             🟡 Cash App Offering
           </a>
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <div className="mt-8 text-center text-sm text-gray-300">
+        <div className="mt-6 text-center text-xs text-gray-300">
           Thank you for your support 🙏
         </div>
 

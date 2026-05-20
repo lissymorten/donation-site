@@ -20,7 +20,7 @@ export default function Home() {
         {/* Title */}
         <div className="flex justify-center mb-4">
         <img
-           src="/images/a-o-a_1mb.png"
+           src="images/a-o-a_1mb.png"
            alt="Altar of Appreciation"
            className="max-w-[220px] w-full h-auto drop-shadow-[0_0_10px_rgba(34,211,238,0.4)]"
           />

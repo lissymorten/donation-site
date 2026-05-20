@@ -18,9 +18,13 @@ export default function Home() {
       <div className="relative w-full max-w-md p-6 rounded-2xl border border-cyan-400/30 bg-black/60 backdrop-blur-xl shadow-[0_0_60px_rgba(34,211,238,0.15)]">
 
         {/* Title */}
-        <h1 className="text-2xl tracking-[0.2em] font-bold text-center text-cyan-300">
-          ALTAR OF APPRECIATION
-        </h1>
+        <div className="flex justify-center mb-4">
+        <img
+           src="/images/a-o-a_1mb.png"
+           alt="Altar of Appreciation"
+           className="max-w-[220px] w-full h-auto drop-shadow-[0_0_10px_rgba(34,211,238,0.4)]"
+          />
+        </div>
 
         <p className="text-xs text-gray-400 text-center mt-2 mb-6">
           Offerings for creative work, projects, and content

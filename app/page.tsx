@@ -45,7 +45,7 @@ export default function Home() {
             onClick={() => setShowZelle(!showZelle)}
             className="w-full py-2 text-sm rounded-lg border border-blue-400/30 bg-blue-500/10 hover:bg-blue-500/20 transition"
           >
-            {showZelle ? "Zelle: tylerbsimons@gmail.com" : "🔒 Reveal Zelle Sigil"}
+            {showZelle ? "Zelle: lissymorten@yahoo.com" : "🔒 Reveal Zelle Sigil"}
           </button>
 
           <a
